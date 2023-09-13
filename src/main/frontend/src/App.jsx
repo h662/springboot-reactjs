@@ -18,7 +18,7 @@ function App() {
     getHello();
   }, []);
 
-  return <div>{hello}</div>;
+  return <div className="bg-red-100">{hello}</div>;
 }
 
 export default App;
